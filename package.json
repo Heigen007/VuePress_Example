@@ -1,13 +1,11 @@
 {
-  "name": "VuePress",
+  "name": "http-api",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
   "authors": {
     "name": "",
     "email": ""
   },
-  "repository": "/VuePress",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
@@ -15,5 +13,8 @@
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vue-template-compiler": "^2.7.8"
   }
 }
